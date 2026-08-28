@@ -116,3 +116,22 @@ Through these exercises I worked with:
 - Shell variables
 - I/O redirection
 - Parent/child process synchronization
+
+
+## Build and Run
+
+Each program can be compiled independently using GCC.
+
+For example, to compile MicroShell:
+
+```bash
+gcc shells/MicroShell.c -o microshell
+./microshell
+```
+
+To compile one of the Unix utilities:
+
+```bash
+gcc utilities/mycp.c -o mycp
+./mycp source.txt destination.txt
+```
