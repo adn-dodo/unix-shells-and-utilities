@@ -135,3 +135,7 @@ To compile one of the Unix utilities:
 gcc utilities/mycp.c -o mycp
 ./mycp source.txt destination.txt
 ```
+
+## Acknowledgments
+
+This project was completed as part of the **Introduction to Linux and Embedded Systems** training at STMicroelectronics, within the **Linux System Programming** track, under the guidance of **Eng. Reda Maher**.
